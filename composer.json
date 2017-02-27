@@ -1,0 +1,25 @@
+{
+    "name": "newday/caching",
+    "description": "NeyDay Caching",
+    "type": "library",
+    "keywords": ["cache","caching"],
+    "homepage": "https://github.com/edcesar/newday-caching",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Ed Cesar",
+            "email": "edcesar@edcesar.com"
+        }
+    ],
+
+    "require": {
+     "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+           "NewDay\\Caching\\" : "src/"
+        }
+    }
+}
